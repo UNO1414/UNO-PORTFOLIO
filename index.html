@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>UNOMANALO_PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css"!important>
+    <script src="https://kit.fontawesome.com/3060f8bf15.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Libertinus+Keyboard&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1><li>UNO MANALO</li></h1>
+            <img src="" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">MY GALLERY</a></li>
+                <li><a href="#portfolio">MY CODING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>1st year BSIT Student, beginner/newbie</p>
+            <h1>Hi, I'm <span>UNO MANALO</span><br>Currenlty Studying BSIT</h1>
+        </div>
+    </div>
+</div>
+<!--------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="IMAGES/UNO.png" style="height: 80vh;  width: 80vh;">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'am Aescleah Karlo B. Manalo or you can call me by my nickname "Uno",
+                I came from the Philippines and Currenlty studying at,
+                the University of Perpetual Help System Dalta, 
+                and a HUMSS student in SHS-YR,and this 2025-2026 year I'am a BSIT student that specailized at Game-Development, 
+                a newbie/beginner at HTML, CSS and JS.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Communication</span><br>Can communicate easily with someone</li>
+                        <li><span>Adaptability</span><br>Easily adapts at work-environment</li>
+                        <li><span>PC Assembly & Maintenance</span><br>Building a PC and Cleaning</li>
+                        <li><span>Troubleshooting</span><br>Problems on PC</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Student-Assistant 2023-2025</span><br>Managing Documents of Enrollees/Services</li>
+                        <li><span>Communication</span><br>Can communicate easily with someone</li>
+                        <li><span>Adaptability</span><br>Easily adapts at work-environment</li>
+                        <li><span>PC Assembly & Maintenance</span><br>I fixed multiple PC's, 
+                        installing Windows 7, Windows 10, and Windows 11. I also opened up and tried fixing hardware issues for PC's through 
+                        RAM, Storage Disks, and other hardware that needed to be checked or fixed.</li>
+                        <li><span>Troubleshooting</span><br>troubleshooting different 
+                        classrooms TV's, Routers, and Wi-Fi connections. We replaced some wirings in rooms, Checked if all of the routers were working, 
+                        and also the Wi-Fi performance.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-2025</span><br>Graduated as a HUMSS Student</li>
+                        <li><span>2011-2025</span><br>Loyalty Award</li>
+                        <li><span>2025-2026</span><br>Newbie at HTML, CSS, JAVA, and JS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------services------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY GALLERY</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>SOCIALS</h2>
+                <P></P>
+                <a href="https://www.facebook.com/uno.manalo.9">CLICK HERE</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-image"></i>
+                <h2>IMAGES</h2>
+                <P></P>
+                <a href="GALLERY.html">CLICK HERE</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------portfolio------------------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY CODING</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMAGES/coding1.png">
+                <div class="layer">
+                    <h3>JAVA</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-brands fa-java"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                <img src="IMAGES/coding2.png">
+                <div class="layer">
+                    <h3>HTML</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-brands fa-html5"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------contact----------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aescleahkarlomanalo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09995921903</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                 <form> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Uno Manal. Made with <i class="fa-solid fa-heart"></i> Easy Tutorials, First portfolio.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script src="js.js" async defer></script>
+
+</body>
+</html>
